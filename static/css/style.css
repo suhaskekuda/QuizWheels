@@ -1,0 +1,62 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ececec;
+    font-family: "Calibri Light";
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile {
+    width:500px;
+    height:560px;
+    border-radius:4px;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.15);
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+
+.tile .header {
+    height:500px;
+    background-color:#f4f4f4;
+    border-radius: 4px 4px 0 0;
+    color:white;
+    font-weight:300;
+}
+
+.tile .body {
+    min-height:60px;
+    border-radius: 0 0 4px 4px;
+    color:#333333;
+    background-color:white;
+}
+
+.tile .body .title {
+    text-align:center;
+    font-size:20px;
+    padding:4%;
+}
+
+text{
+    font-family: "Calibri Light";
+    font-size:20px;
+    pointer-events:none;
+}
+
+#chart{
+    .position:absolute;
+    width:500px;
+    height:500px;
+    .top:0;
+    .left:0;
+}

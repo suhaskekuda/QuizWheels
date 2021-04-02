@@ -1,0 +1,13 @@
+{
+  "Application" : {
+    "Host" : "0.0.0.0",
+    "Port" : 5063,
+    "Token" : "G7YxKx00I4sH6FGpRQcVNP1Xc"
+  },
+  "Logging" : {
+    "logfile": "logs/event.log",
+    "consoleLogging": 1,
+    "fileLogging": 1
+  },
+  "QuestionLimit" : 0
+}
